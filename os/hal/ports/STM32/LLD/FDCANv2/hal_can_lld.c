@@ -47,8 +47,8 @@
     defined(__DOXYGEN__)
 
 #if (STM32_CAN_USE_FDCAN1 && STM32_CAN_USE_FDCAN2 && STM32_CAN_USE_FDCAN3)
-#define STM32_FDCAN_FLS_NBR                 21U
-#define STM32_FDCAN_FLE_NBR                 10U
+#define STM32_FDCAN_FLS_NBR                 32U
+#define STM32_FDCAN_FLE_NBR                 32U
 #define STM32_FDCAN_RF0_NBR                 10U
 #define STM32_FDCAN_RF1_NBR                 10U
 #define STM32_FDCAN_RB_NBR                  10U
